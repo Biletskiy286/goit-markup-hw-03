@@ -10,12 +10,31 @@ a {
 
 ul{
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 ol {
   list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.container{
+  width: 1158px;
+  padding: 0,15px;
+  margin:auto;
+}
+.container-header{
+  display: flex;
 }
 /* HEADER */
+.header{
+  border-bottom: 1px solid cornflower;
+}
+.navigation{
+  display:flex;
+}
+
 .logo-header {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
@@ -25,10 +44,17 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  margin-right: 76px;
 }
 .logo-blu {
   color: #2e2f42; 
 }
+
+.nav-list{
+  display: flex;
+  gap: 40px;
+}
+
 .nav-header {
   font-weight: 500;
   line-height: 1.5;
@@ -41,8 +67,12 @@ ol {
   }
 .address {
   font-style: normal;
+  margin-left: auto;
 }
-
+.address-list{
+  display: flex;
+  gap: 40px;
+}
 .address-item {
   color: #434455;
   font-size: 16px;
