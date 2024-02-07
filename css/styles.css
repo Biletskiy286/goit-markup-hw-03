@@ -93,12 +93,12 @@ img {
 
 
 /* SECTION 1 */
-.section-one {
+section-one {
   background-color:#2e2f42;
   padding: 188px 0 188px;
 }
 
-.section-one-header {
+section-one-header {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
