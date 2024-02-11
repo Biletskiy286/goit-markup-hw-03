@@ -138,7 +138,11 @@ img {
 
 .section-two-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  justify-content: space-between;
+  flex-basis: calc((100%-72px) / 4);
   width: 1158px;
   padding: 0 15px 0 15px;
   margin: auto;
@@ -157,7 +161,6 @@ img {
 }
 .section-two-list-item {
   margin-right: 24px;
-  flex-basis: calc((100% - 72px) / 3);
 }
 
 .section-two-list:last-child {
