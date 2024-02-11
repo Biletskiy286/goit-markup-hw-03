@@ -157,8 +157,8 @@ img {
   overflow: hidden;
 }
 .section-two-list-item {
-margin-right: 24px;
-width calc((100% - 72px) / 4);
+  margin-right: 24px;
+  width: calc((100% - 72px) / 4);
 }
 
 .section-two-list:last-child {
