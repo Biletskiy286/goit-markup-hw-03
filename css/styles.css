@@ -8,8 +8,7 @@ a {
   text-decoration: none;
 }
 
-ul,
-ol {
+ul {
   list-style-type: none;
   margin: 0;
   padding-left: 0;
@@ -130,7 +129,6 @@ img {
   display: flex;
   padding-top: 120px;
   padding-bottom: 120px;
-  display: flex;
 }
 .container-two {
   display: flex;
@@ -138,15 +136,12 @@ img {
 
 .section-two-list {
   display: flex;
-  flex-wrap: wrap;
   gap: 24px;
   width: 1158px;
   padding: 0 15px 0 15px;
   margin: auto;
 }
-.section-two-list:first-child {
-  width: calc((100% - 72px) / 4);
-}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -162,6 +157,7 @@ img {
 
 .section-two-list-item {
   margin-right: 24px;
+  width: calc((100% - 72px) / 4);
 }
 
 .section-two-list:last-child {
