@@ -162,11 +162,11 @@ img {
 .section-two-list-item {
   margin-right: 24px;
 }
-.section-two-list-item:last-child {
+.section-two-list:last-child {
   margin-right: 0;
 }
-.section-two-list-item:first-child {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+.section-two-list:first-child {
+  flex-basis: calc((100%-3 * 24px) / 4);
 }
 .section-header-three {
   font-weight: 500;
