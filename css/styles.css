@@ -103,7 +103,7 @@ img {
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
-  align: center;
+  box-align: center;
   margin: auto;
   margin-bottom: 50px;
 }
@@ -161,12 +161,10 @@ img {
 }
 .section-two-list-item {
   margin-right: 24px;
+  width calc((100% - 72px) /4);
 }
 .section-two-list:last-child {
   margin-right: 0;
-}
-.section-two-list:first-child {
-  width: calc((100% - 72px) / 4);
 }
 .section-header-three {
   font-weight: 500;
