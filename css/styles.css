@@ -161,7 +161,9 @@ img {
 }
 .section-two-list-item {
   margin-right: 24px;
-  width calc((100% - 72px) /4);
+}
+.section-two-list:first-child {
+  flex-basis: calc((100% - 72px) / 4);
 }
 .section-two-list:last-child {
   margin-right: 0;
