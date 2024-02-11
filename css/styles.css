@@ -166,7 +166,7 @@ img {
   margin-right: 0;
 }
 .section-two-list:first-child {
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 .section-header-three {
   font-weight: 500;
