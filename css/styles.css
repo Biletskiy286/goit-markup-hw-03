@@ -140,8 +140,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  justify-content: space-between;
-  flex-basis: calc((100%-72px) / 4);
   width: 1158px;
   padding: 0 15px 0 15px;
   margin: auto;
@@ -159,7 +157,8 @@ img {
   overflow: hidden;
 }
 .section-two-list-item {
-  margin-right: 24px;
+margin-right: 24px;
+width calc((100% - 72px) / 4);
 }
 
 .section-two-list:last-child {
