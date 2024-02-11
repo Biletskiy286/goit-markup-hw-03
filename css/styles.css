@@ -144,6 +144,9 @@ img {
   padding: 0 15px 0 15px;
   margin: auto;
 }
+.section-two-list:first-child {
+  width: calc((100% - 72px) / 4);
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -156,9 +159,9 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .section-two-list-item {
   margin-right: 24px;
-  width: calc((100% - 72px) / 4);
 }
 
 .section-two-list:last-child {
