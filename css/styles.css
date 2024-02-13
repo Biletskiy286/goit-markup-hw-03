@@ -6,6 +6,7 @@ body {
 
 a {
   text-decoration: none;
+  display: block;
 }
 
 ul {
@@ -16,6 +17,16 @@ ul {
 
 img {
   display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 .container {
   width: 1158px;
@@ -59,11 +70,17 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24px 0 24px;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .nav-header:hover,
 .nav-header:focus {
   color: #404bbf;
+}
+
+.current::after {
+  content: "";
 }
 .address {
   font-style: normal;
@@ -78,6 +95,9 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .address-item:hover,
 .address-item:focus {
@@ -137,9 +157,6 @@ img {
 .section-two-list {
   display: flex;
   gap: 24px;
-  width: 1158px;
-  padding: 0 15px 0 15px;
-  margin: auto;
 }
 
 .visually-hidden {
@@ -156,14 +173,10 @@ img {
 }
 
 .section-two-list-item {
-  margin-right: 24px;
   width: calc((100% - 72px) / 4);
 }
 
-.section-two-list:last-child {
-  margin-right: 0;
-}
-.section-header-three {
+.s-header-three {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -196,6 +209,15 @@ img {
 .s-three-list {
   display: flex;
   gap: 24px;
+}
+
+.section-header-three {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
 }
 .s-three-list:first-child {
   width: calc((100% - 72px) / 4);
@@ -266,8 +288,8 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
   margin-bottom: 8px;
 }
 .section-four-p {
@@ -289,11 +311,18 @@ img {
 }
 
 .logo-footer {
-  display: inline-block;
   margin-bottom: 16px;
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 76px;
 }
 .footer-text {
-  display: inline-block;
   color: var(--CLOUD, #f4f4fd);
   line-height: 1.5;
   letter-spacing: 0.02em;
