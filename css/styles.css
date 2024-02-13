@@ -79,9 +79,9 @@ p {
   color: #404bbf;
 }
 
-.current::after {
+/* .current:after {
   content: "";
-}
+} */
 .address {
   font-style: normal;
   margin-left: auto;
@@ -219,10 +219,7 @@ p {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-.s-three-list:first-child {
-  width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
-}
+
 
 .s-three-list:last-child {
   margin-right: 0;
@@ -230,6 +227,7 @@ p {
 .s-three-list-item {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 48px) / 3);
 }
 
 .worker-info {
@@ -321,6 +319,7 @@ p {
   text-transform: uppercase;
   text-decoration: none;
   margin-right: 76px;
+  display: inline-block;
 }
 .footer-text {
   color: var(--CLOUD, #f4f4fd);
